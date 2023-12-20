@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    max-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.main::before {
+    content:url("assets/images/background-pattern-desktop.svg");
+}
+
+.main .faq {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: -1px 1px 10px black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 30%;
+}
+.main .faq .ques:first-child{
+    display: flex;
+    gap: 7px;
+}
+.main .faq .ques {
+    margin: 20px 0;
+}
+
+.main .faq .ques .one,
+.main .faq .ques .two,
+.main .faq .ques .three,
+.main .faq .ques .four{
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.main .faq .ques .ans{
+    display: none;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, .6);
+}
+.main .faq .ques >div>span {
+    margin: auto 0;
+    color: rgba(0, 0, 0, .7);
+}
+.main .faq .ques >span{
+    margin: auto 0;
+}
+.main .faq span {
+    font-weight: bold;
+}
+
+.main .faq .ques >img {
+    scale: .9;
+}
+.main .faq .ques > span {
+    font-size: 50px;
+}
+
+.main .faq .ques div:first-child{
+    cursor: pointer; 
+}
+
+
+@media only screen and (max-width: 375px) {
+    
+    .main::before {
+        content:url("assets/images/background-pattern-mobile.svg");
+        max-width: 375px;
+    }
+
+    .main {
+        max-width: 375px;
+    }
+    .main .faq {
+        width: 70%;
+    }
+
+    .main .faq .ques div:first-child > span:active{
+        color: #AD28EB;
+    }
+
+}

@@ -9,6 +9,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
   - [Overview](#overview)
     - [The challenge](#the-challenge)
   - [Author](#author)
+  - [Link to project](#link-to-project)
 
 ## Overview
 
@@ -25,3 +26,6 @@ Users should be able to:
 - Frontend Mentor - [lander-2113](https://www.frontendmentor.io/profile/yourusername)
 
 - LinkedIn - [Rohit Sahu](www.linkedin.com/in/rohit-sahu-8526a9193)
+
+## Link to project
+[VISIT](https://faq-accordion-main-3479j03uo-rohit-sahus-projects.vercel.app/)

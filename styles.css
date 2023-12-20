@@ -24,14 +24,14 @@
     box-shadow: -1px 1px 10px black;
     padding: 30px;
     border-radius: 10px;
-    width: 30%;
+    width: 40%;
 }
 .main .faq .ques:first-child{
     display: flex;
     gap: 7px;
 }
 .main .faq .ques {
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 .main .faq .ques .one,
